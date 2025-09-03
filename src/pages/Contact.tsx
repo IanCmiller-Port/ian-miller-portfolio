@@ -9,20 +9,14 @@ const Contact = () => {
     {
       icon: "✉️",
       title: "Email",
-      value: "hello@portfolio.com",
-      link: "mailto:hello@portfolio.com"
+      value: "Ianmiller@umass.edu",
+      link: "mailto:Ianmiller@umass.edu"
     },
     {
       icon: "💼",
       title: "LinkedIn", 
-      value: "/in/yourprofile",
-      link: "https://linkedin.com/in/yourprofile"
-    },
-    {
-      icon: "💻",
-      title: "GitHub",
-      value: "/yourusername",
-      link: "https://github.com/yourusername"
+      value: "in/ian-miller-um",
+      link: "https://linkedin.com/in/ian-miller-um"
     }
   ];
 
@@ -117,19 +111,10 @@ const Contact = () => {
                 ))}
               </div>
 
-              {/* Additional Info */}
               <Card className="p-6 mt-8 shadow-soft">
-                <h3 className="font-semibold mb-3 text-card-foreground">Availability</h3>
-                <p className="text-muted-foreground text-sm">
-                  I'm currently available for new projects and collaborations. 
-                  I typically respond to messages within 24 hours.
-                </p>
-              </Card>
-
-              <Card className="p-6 mt-4 shadow-soft">
                 <h3 className="font-semibold mb-3 text-card-foreground">Location</h3>
                 <p className="text-muted-foreground text-sm">
-                  Based in Your City, open to remote work and occasional travel for projects.
+                  Currently based in Amherst, MA, open to remote work and internship opportunities.
                 </p>
               </Card>
             </div>
