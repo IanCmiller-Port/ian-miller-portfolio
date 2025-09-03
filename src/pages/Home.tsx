@@ -17,11 +17,10 @@ const Home = () => {
       >
         <div className="container mx-auto px-6 text-center text-white">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            Engineering
-            <span className="block text-accent">Excellence</span>
+            Ian Miller
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-gray-200">
-            Crafting innovative solutions through thoughtful engineering and clean code
+            Building innovative solutions through thoughtful engineering
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
@@ -43,31 +42,31 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="p-8 text-center shadow-medium hover:shadow-large transition-all">
               <div className="w-16 h-16 bg-gradient-hero rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-2xl text-white">⚙️</span>
+                <span className="text-2xl text-white">📐</span>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-card-foreground">Backend Development</h3>
+              <h3 className="text-xl font-semibold mb-4 text-card-foreground">CAD/CAM</h3>
               <p className="text-muted-foreground">
-                Scalable APIs, microservices, and robust system architecture
+                3D modeling, parametric design, and computer-aided manufacturing
               </p>
             </Card>
 
             <Card className="p-8 text-center shadow-medium hover:shadow-large transition-all">
               <div className="w-16 h-16 bg-gradient-hero rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-2xl text-white">🎨</span>
+                <span className="text-2xl text-white">🔨</span>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-card-foreground">Frontend Development</h3>
+              <h3 className="text-xl font-semibold mb-4 text-card-foreground">Fabrication</h3>
               <p className="text-muted-foreground">
-                Modern React applications with exceptional user experiences
+                3D printing, machining, and custom part manufacturing
               </p>
             </Card>
 
             <Card className="p-8 text-center shadow-medium hover:shadow-large transition-all">
               <div className="w-16 h-16 bg-gradient-hero rounded-full mx-auto mb-4 flex items-center justify-center">
-                <span className="text-2xl text-white">🔧</span>
+                <span className="text-2xl text-white">🧪</span>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-card-foreground">DevOps & Infrastructure</h3>
+              <h3 className="text-xl font-semibold mb-4 text-card-foreground">Testing</h3>
               <p className="text-muted-foreground">
-                Cloud deployment, CI/CD pipelines, and monitoring solutions
+                Materials testing, quality assurance, and process optimization
               </p>
             </Card>
           </div>
