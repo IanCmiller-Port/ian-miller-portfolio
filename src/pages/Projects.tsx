@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "944 Restomod",
       description: "Full-stack e-commerce solution with payment processing, inventory management, and admin dashboard.",
       technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
       image: "🛒",
