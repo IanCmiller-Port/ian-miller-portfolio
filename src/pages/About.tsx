@@ -3,45 +3,35 @@ import { Badge } from "@/components/ui/badge";
 
 const About = () => {
   const skills = [
-    "JavaScript", "TypeScript", "React", "Node.js", "Python", "Java",
-    "PostgreSQL", "MongoDB", "AWS", "Docker", "Kubernetes", "Git"
+    "Leadership", "Adaptability", "Work-Ethic", "Solidworks", "Fusion 360", "Onshape",
+    "Machining", "3D printing", "Sheet Metal", "Welding", "Casting", "Woodworking",
+    "CMM", "3D Scanning", "BOM", "DRM", "Gantt Charts", "SOP", "Test method Design",
+    "Excel", "Word", "PowerPoint", "Sheets", "Python"
   ];
 
   const experiences = [
     {
-      title: "Senior Software Engineer",
-      company: "Tech Company",
-      period: "2022 - Present",
-      description: "Leading development of scalable web applications and mentoring junior developers."
+      title: "Manufacturing Engineering Intern",
+      company: "Lexington Medical, Bedford MA",
+      period: "May - Present",
+      description: "Worked with a team of 3 engineers to build a robotically assisted manufacturing workcell for surgical stapling. Used a combination of pneumatic and electrical actuators, sensors, and physical design elements to ensure robust operation. Machined high-precision, fast-turnaround components to support production. Provided DFM consulting for other teams before sending out parts for manufacturing."
     },
     {
-      title: "Full Stack Developer",
-      company: "Startup Inc",
-      period: "2020 - 2022", 
-      description: "Built end-to-end solutions from database design to user interface implementation."
+      title: "Settings Optimization Intern",
+      company: "Formlabs, Somerville MA",
+      period: "May - August 2024", 
+      description: "Created and executed diagnostic test procedures to address material performance concerns. Tuned settings for 15+ resin types and performed lifetime testing on printer components. Utilized precision measurement tools to improve print reliability."
     },
     {
-      title: "Junior Developer",
-      company: "Development Agency",
-      period: "2018 - 2020",
-      description: "Developed client websites and learned modern development practices."
+      title: "Makerspace Staff",
+      company: "UMass Amherst Makerspace, Amherst MA",
+      period: "September 2023 - Present",
+      description: "Consult on personal, Lab, and senior design projects. Build and maintain advanced equipment (Plasma Cutter, CNC router, SLA 3D printing). Manage purchasing for equipment and materials."
     }
   ];
 
   return (
     <div className="min-h-screen pt-20">
-      {/* Header */}
-      <section className="py-20 bg-gradient-subtle">
-        <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-foreground">
-            About Me
-          </h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Passionate engineer with a love for creating elegant solutions to complex problems
-          </p>
-        </div>
-      </section>
-
       {/* Main Content */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-6">
