@@ -114,7 +114,7 @@ const Contact = () => {
               <Card className="p-6 mt-8 shadow-soft">
                 <h3 className="font-semibold mb-3 text-card-foreground">Location</h3>
                 <p className="text-muted-foreground text-sm">
-                  Currently based in Amherst, MA, open to remote work and internship opportunities.
+                  Currently based in Lexington, MA, open to remote work and internship opportunities.
                 </p>
               </Card>
             </div>
