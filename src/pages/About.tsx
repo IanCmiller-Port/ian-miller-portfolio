@@ -1,5 +1,8 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import formlabsLogo from "@/assets/formlabs-logo.svg";
+import umassLogo from "@/assets/umass-logo.png";
+import lexingtonMedicalLogo from "@/assets/lexington-medical-logo.png";
 
 const About = () => {
   const skills = [
@@ -13,19 +16,22 @@ const About = () => {
       title: "Manufacturing Engineering Intern",
       company: "Lexington Medical, Bedford MA",
       period: "May - Present",
-      description: "Worked with a team of 3 engineers to build a robotically assisted manufacturing workcell for surgical stapling. Used a combination of pneumatic and electrical actuators, sensors, and physical design elements to ensure robust operation. Machined high-precision, fast-turnaround components to support production. Provided DFM consulting for other teams before sending out parts for manufacturing."
+      description: "Worked with a team of 3 engineers to build a robotically assisted manufacturing workcell for surgical stapling. Used a combination of pneumatic and electrical actuators, sensors, and physical design elements to ensure robust operation. Machined high-precision, fast-turnaround components to support production. Provided DFM consulting for other teams before sending out parts for manufacturing.",
+      logo: lexingtonMedicalLogo
     },
     {
       title: "Settings Optimization Intern",
       company: "Formlabs, Somerville MA",
       period: "May - August 2024", 
-      description: "Created and executed diagnostic test procedures to address material performance concerns. Tuned settings for 15+ resin types and performed lifetime testing on printer components. Utilized precision measurement tools to improve print reliability."
+      description: "Created and executed diagnostic test procedures to address material performance concerns. Tuned settings for 15+ resin types and performed lifetime testing on printer components. Utilized precision measurement tools to improve print reliability.",
+      logo: formlabsLogo
     },
     {
       title: "Makerspace Staff",
       company: "UMass Amherst Makerspace, Amherst MA",
       period: "September 2023 - Present",
-      description: "Consult on personal, Lab, and senior design projects. Build and maintain advanced equipment (Plasma Cutter, CNC router, SLA 3D printing). Manage purchasing for equipment and materials."
+      description: "Consult on personal, Lab, and senior design projects. Build and maintain advanced equipment (Plasma Cutter, CNC router, SLA 3D printing). Manage purchasing for equipment and materials.",
+      logo: umassLogo
     }
   ];
 
@@ -75,16 +81,32 @@ const About = () => {
           <div className="space-y-8 max-w-4xl mx-auto">
             {experiences.map((exp, index) => (
               <Card key={index} className="p-8 shadow-medium">
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                  <div>
-                    <h3 className="text-xl font-semibold text-card-foreground">{exp.title}</h3>
-                    <p className="text-primary font-medium">{exp.company}</p>
+                <div className="flex gap-6">
+                  {/* Logo */}
+                  <div className="flex-shrink-0">
+                    <div className="w-16 h-16 bg-background rounded-lg border p-2 flex items-center justify-center">
+                      <img 
+                        src={exp.logo} 
+                        alt={`${exp.company} logo`} 
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
                   </div>
-                  <Badge variant="outline" className="mt-2 md:mt-0 w-fit">
-                    {exp.period}
-                  </Badge>
+                  
+                  {/* Content */}
+                  <div className="flex-1">
+                    <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                      <div>
+                        <h3 className="text-xl font-semibold text-card-foreground">{exp.title}</h3>
+                        <p className="text-primary font-medium">{exp.company}</p>
+                      </div>
+                      <Badge variant="outline" className="mt-2 md:mt-0 w-fit">
+                        {exp.period}
+                      </Badge>
+                    </div>
+                    <p className="text-muted-foreground">{exp.description}</p>
+                  </div>
                 </div>
-                <p className="text-muted-foreground">{exp.description}</p>
               </Card>
             ))}
           </div>
