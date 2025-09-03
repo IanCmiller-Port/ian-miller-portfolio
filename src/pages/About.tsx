@@ -48,23 +48,16 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             {/* Bio */}
             <div>
-              <h2 className="text-3xl font-bold mb-6 text-foreground">My Story</h2>
+              <h2 className="text-3xl font-bold mb-6 text-foreground">About me</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  I'm a software engineer with over 5 years of experience building 
-                  scalable web applications and systems. My journey started with a 
-                  curiosity about how things work, which led me to pursue computer 
-                  science and fall in love with programming.
+                  I am a Biomedical Engineering and Economics student at UMass Amherst with hands-on experience in medical device manufacturing, 3D printing, and biomaterials research. I've interned at Lexington Medical and Formlabs, where I contributed to robotic manufacturing systems, materials testing, and process optimization.
                 </p>
                 <p>
-                  I specialize in full-stack development with expertise in modern 
-                  JavaScript frameworks, cloud architecture, and agile development 
-                  practices. I believe in writing clean, maintainable code and 
-                  creating user-centered solutions.
+                  At UMass, I'm involved in multiple bioprinting projects, economics research, and recently joined the university's Aeronautics Team.
                 </p>
                 <p>
-                  When I'm not coding, you can find me exploring new technologies, 
-                  contributing to open source projects, or enjoying the outdoors.
+                  Outside of academics, I spend most of my time in the makerspace, where I love to tinker on cars. Whether it's rebuilding an engine, fabricating custom parts, or repainting wheels, I enjoy learning by building.
                 </p>
               </div>
             </div>
