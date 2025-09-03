@@ -3,10 +3,9 @@ import { Badge } from "@/components/ui/badge";
 
 const About = () => {
   const skills = [
-    "Leadership", "Adaptability", "Work-Ethic", "Solidworks", "Fusion 360", "Onshape",
-    "Machining", "3D printing", "Sheet Metal", "Welding", "Casting", "Woodworking",
-    "CMM", "3D Scanning", "BOM", "DRM", "Gantt Charts", "SOP", "Test method Design",
-    "Excel", "Word", "PowerPoint", "Sheets", "Python"
+    "Solidworks", "Fusion 360", "Onshape", "Machining", "3D printing", "Sheet Metal", 
+    "Welding", "Woodworking", "CMM", "3D Scanning", "Test method Design", 
+    "Electrical wiring", "Arduino", "Python"
   ];
 
   const experiences = [
