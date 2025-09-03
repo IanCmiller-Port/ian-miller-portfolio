@@ -28,17 +28,6 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen pt-20">
-      {/* Header */}
-      <section className="py-20 bg-gradient-subtle">
-        <div className="container mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-foreground">
-            Get In Touch
-          </h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ready to discuss your next project? Let's connect and build something amazing together
-          </p>
-        </div>
-      </section>
 
       {/* Contact Content */}
       <section className="py-20 bg-background">

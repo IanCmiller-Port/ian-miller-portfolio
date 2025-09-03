@@ -74,20 +74,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-20 bg-gradient-subtle">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-foreground">
-            Ready to Build Something Amazing?
-          </h2>
-          <p className="text-xl mb-8 text-muted-foreground max-w-2xl mx-auto">
-            Let's discuss your next project and turn your ideas into reality
-          </p>
-          <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
-            <Link to="/contact">Get In Touch</Link>
-          </Button>
-        </div>
-      </section>
     </div>
   );
 };
