@@ -17,7 +17,7 @@ import wallet1 from "@/assets/project-photos/wallet-1.jpg";
 const Projects = () => {
   const projects = [
     {
-      title: "944 Restomod",
+      title: "Large Scale Fresh Bioprinter",
       description: "Full-stack e-commerce solution with payment processing, inventory management, and admin dashboard.",
       technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
       image: "🛒",
