@@ -1,6 +1,18 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import ProjectGallery from "@/components/ProjectGallery";
+
+// Import project photos
+import restomod1 from "@/assets/project-photos/944-restomod-1.jpg";
+import restomod2 from "@/assets/project-photos/944-restomod-2.jpg";
+import taskApp1 from "@/assets/project-photos/task-app-1.jpg";
+import taskApp2 from "@/assets/project-photos/task-app-2.jpg";
+import analytics1 from "@/assets/project-photos/analytics-1.jpg";
+import analytics2 from "@/assets/project-photos/analytics-2.jpg";
+import weather1 from "@/assets/project-photos/weather-app-1.jpg";
+import chatbot1 from "@/assets/project-photos/chatbot-1.jpg";
+import wallet1 from "@/assets/project-photos/wallet-1.jpg";
 
 const Projects = () => {
   const projects = [
@@ -10,7 +22,7 @@ const Projects = () => {
       technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
       image: "🛒",
       liveUrl: "#",
-      codeUrl: "#"
+      photos: [restomod1, restomod2]
     },
     {
       title: "Task Management App", 
@@ -18,7 +30,7 @@ const Projects = () => {
       technologies: ["Vue.js", "Express", "MongoDB", "Socket.io"],
       image: "📋",
       liveUrl: "#",
-      codeUrl: "#"
+      photos: [taskApp1, taskApp2]
     },
     {
       title: "Analytics Dashboard",
@@ -26,7 +38,7 @@ const Projects = () => {
       technologies: ["React", "D3.js", "Python", "FastAPI", "Redis"],
       image: "📊",
       liveUrl: "#",
-      codeUrl: "#"
+      photos: [analytics1, analytics2]
     },
     {
       title: "Mobile Weather App",
@@ -34,7 +46,7 @@ const Projects = () => {
       technologies: ["React Native", "TypeScript", "Weather API"],
       image: "🌤️",
       liveUrl: "#",
-      codeUrl: "#"
+      photos: [weather1]
     },
     {
       title: "AI Chat Bot",
@@ -42,7 +54,7 @@ const Projects = () => {
       technologies: ["Python", "TensorFlow", "Flask", "Docker"],
       image: "🤖",
       liveUrl: "#", 
-      codeUrl: "#"
+      photos: [chatbot1]
     },
     {
       title: "Blockchain Wallet",
@@ -50,7 +62,7 @@ const Projects = () => {
       technologies: ["React", "Web3.js", "Solidity", "Ethereum"],
       image: "💰",
       liveUrl: "#",
-      codeUrl: "#"
+      photos: [wallet1]
     }
   ];
 
@@ -103,11 +115,7 @@ const Projects = () => {
                         Live Demo
                       </a>
                     </Button>
-                    <Button size="sm" variant="outline" asChild className="flex-1">
-                      <a href={project.codeUrl} target="_blank" rel="noopener noreferrer">
-                        Code
-                      </a>
-                    </Button>
+                    <ProjectGallery photos={project.photos} projectTitle={project.title} />
                   </div>
                 </div>
               </Card>
