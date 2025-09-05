@@ -37,6 +37,15 @@ const cncRouterGallery = [
   "/lovable-uploads/f90e94ad-f6ee-486c-8edf-6d57a7b9a130.png"
 ];
 
+// BIT-kit project photos
+const bitkitCover = "/lovable-uploads/f26968ab-0ef7-4325-a3b6-a3b0aa7f0b0a.png";
+const bitkitGallery = [
+  "/lovable-uploads/66f1f7b0-558c-43e2-b3e3-5718c16e30f6.png",
+  "/lovable-uploads/d9a1dffe-7ea4-40c8-a587-42b83bc0f6f1.png",
+  "/lovable-uploads/7c6b7bc4-39dd-4b59-b7eb-3cca5a955d8d.png",
+  "/lovable-uploads/f26968ab-0ef7-4325-a3b6-a3b0aa7f0b0a.png"
+];
+
 // Large scale FDM 3D printer project photos
 const fdmPrinterCover = "/lovable-uploads/936cec2b-c729-4e18-aca5-74cb2b5e2bc1.png";
 const fdmPrinterGallery = [
@@ -71,10 +80,11 @@ const Projects = () => {
     },
     {
       title: "BIT-kit Biomaterial test platform (Ender 3)",
-      description: "Intelligent chatbot with natural language processing for customer support automation.",
-      technologies: ["Metal Fab", "Body work", "Electrical Wiring", "3D Printing"],
+      description: "Born at a hackathon, my idea for a low-cost open source biomaterial test platform using the widely available Ender 3 manifested itself as BIT-kit",
+      technologies: ["Rapid Prototyping", "Electronics", "Gear systems", "Sleep Deprivation"],
+      coverImage: bitkitCover,
       image: "🤖",
-      photos: [chatbot1]
+      photos: bitkitGallery
     },
     {
       title: "Blacksmithing",
