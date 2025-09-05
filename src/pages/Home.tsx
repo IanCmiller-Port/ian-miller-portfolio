@@ -16,12 +16,9 @@ const Home = () => {
         }}
       >
         <div className="container mx-auto px-6 text-center text-white">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
+          <h1 className="text-5xl md:text-7xl font-bold mb-8 animate-fade-in">
             Ian Miller
           </h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-gray-200">
-            Building innovative solutions through thoughtful engineering
-          </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
               <Link to="/projects">View Projects</Link>
