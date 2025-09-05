@@ -31,6 +31,12 @@ const bioprinterGallery = [
   "/lovable-uploads/1296f8f3-cbe4-4d50-b02a-e70fa816742f.png"
 ];
 
+// CNC router project photos
+const cncRouterCover = "/lovable-uploads/f90e94ad-f6ee-486c-8edf-6d57a7b9a130.png";
+const cncRouterGallery = [
+  "/lovable-uploads/f90e94ad-f6ee-486c-8edf-6d57a7b9a130.png"
+];
+
 // Large scale FDM 3D printer project photos
 const fdmPrinterCover = "/lovable-uploads/936cec2b-c729-4e18-aca5-74cb2b5e2bc1.png";
 const fdmPrinterGallery = [
@@ -57,10 +63,11 @@ const Projects = () => {
     },
     {
       title: "CNC router",
-      description: "Cross-platform weather application with location services, forecasts, and weather alerts.",
-      technologies: ["Metal Fab", "Body work", "Electrical Wiring", "3D Printing"],
-      image: "🌤️",
-      photos: [weather1]
+      description: "Originally setting out to build a \"Dremel CNC\", I was unimpressed by the lack of rigidity and power, so with parts that I had on hand i designed and built this machine.",
+      technologies: ["GRBL", "Motion Systems", "Electronics", "Machining"],
+      coverImage: cncRouterCover,
+      image: "🔧",
+      photos: cncRouterGallery
     },
     {
       title: "BIT-kit Biomaterial test platform (Ender 3)",
