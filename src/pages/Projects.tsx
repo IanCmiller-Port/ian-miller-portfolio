@@ -126,7 +126,7 @@ const Projects = () => {
     {
       title: "Other projects",
       description: "I take on a lot of smaller projects that showcase my skills and creativity, you can find some of them here",
-      technologies: ["Metal Fab", "Body work", "Electrical Wiring", "3D Printing"],
+      technologies: [],
       coverImage: otherProjectsCover,
       image: "💰",
       photos: otherProjectsGallery
