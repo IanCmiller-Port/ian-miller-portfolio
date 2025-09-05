@@ -21,47 +21,48 @@ const Projects = () => {
       description: "Full-stack e-commerce solution with payment processing, inventory management, and admin dashboard.",
       technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
       image: "🛒",
-      liveUrl: "#",
       photos: [restomod1, restomod2]
     },
     {
-      title: "Task Management App", 
+      title: "944 Restomod", 
       description: "Collaborative project management tool with real-time updates, team chat, and progress tracking.",
       technologies: ["Vue.js", "Express", "MongoDB", "Socket.io"],
       image: "📋",
-      liveUrl: "#",
       photos: [taskApp1, taskApp2]
     },
     {
-      title: "Analytics Dashboard",
+      title: "Large scale FDM 3d printer",
       description: "Real-time data visualization dashboard for business metrics with customizable charts and reports.",
       technologies: ["React", "D3.js", "Python", "FastAPI", "Redis"],
       image: "📊",
-      liveUrl: "#",
       photos: [analytics1, analytics2]
     },
     {
-      title: "Mobile Weather App",
+      title: "CNC router",
       description: "Cross-platform weather application with location services, forecasts, and weather alerts.",
       technologies: ["React Native", "TypeScript", "Weather API"],
       image: "🌤️",
-      liveUrl: "#",
       photos: [weather1]
     },
     {
-      title: "AI Chat Bot",
+      title: "BIT-kit Biomaterial test platform (Ender 3)",
       description: "Intelligent chatbot with natural language processing for customer support automation.",
       technologies: ["Python", "TensorFlow", "Flask", "Docker"],
       image: "🤖",
-      liveUrl: "#", 
       photos: [chatbot1]
     },
     {
-      title: "Blockchain Wallet",
+      title: "Blacksmithing",
       description: "Secure cryptocurrency wallet with multi-currency support and transaction history.",
       technologies: ["React", "Web3.js", "Solidity", "Ethereum"],
       image: "💰",
-      liveUrl: "#",
+      photos: [wallet1]
+    },
+    {
+      title: "Machining",
+      description: "Advanced machining projects and fabrication work.",
+      technologies: ["CAD", "CAM", "CNC", "Manual Machining"],
+      image: "⚙️",
       photos: [wallet1]
     }
   ];
@@ -110,11 +111,6 @@ const Projects = () => {
 
                   {/* Action Buttons */}
                   <div className="flex gap-3">
-                    <Button size="sm" variant="default" asChild className="flex-1">
-                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                        Live Demo
-                      </a>
-                    </Button>
                     <ProjectGallery photos={project.photos} projectTitle={project.title} />
                   </div>
                 </div>
