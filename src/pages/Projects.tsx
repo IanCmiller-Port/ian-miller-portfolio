@@ -52,6 +52,15 @@ const fdmPrinterGallery = [
   "/lovable-uploads/936cec2b-c729-4e18-aca5-74cb2b5e2bc1.png"
 ];
 
+// Machining project photos
+const machiningCover = "/lovable-uploads/ff5d2c36-ebb2-4199-bbea-0162e86092fa.png";
+const machiningGallery = [
+  "/lovable-uploads/0392c66b-5d7c-4edb-a074-6300bab19b56.png",
+  "/lovable-uploads/ff5d2c36-ebb2-4199-bbea-0162e86092fa.png", 
+  "/lovable-uploads/37a9e13e-297b-45f5-8053-c1f889e890af.png",
+  "/lovable-uploads/5924ad52-d70a-4bcb-97a7-123228d0ccba.png"
+];
+
 // Other projects photos
 const otherProjectsCover = "/lovable-uploads/a4bbd03c-65a5-4ca5-990e-2d2946e8d197.png";
 const otherProjectsGallery = [
@@ -100,10 +109,11 @@ const Projects = () => {
     },
     {
       title: "Machining",
-      description: "Advanced machining projects and fabrication work.",
-      technologies: ["Metal Fab", "Body work", "Electrical Wiring", "3D Printing"],
+      description: "Some professional and personal machining I've done",
+      technologies: ["CNC Machining", "Metal Fabrication", "Precision Tooling", "CAD/CAM"],
+      coverImage: machiningCover,
       image: "⚙️",
-      photos: [wallet1]
+      photos: machiningGallery
     },
     {
       title: "Large scale FDM 3d printer",
