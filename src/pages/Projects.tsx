@@ -19,49 +19,49 @@ const Projects = () => {
     {
       title: "Large Scale Fresh Bioprinter",
       description: "Full-stack e-commerce solution with payment processing, inventory management, and admin dashboard.",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "AWS"],
+      technologies: ["Metal Fab", "Body work", "Electrical Wiring", "3D Printing"],
       image: "🛒",
       photos: [restomod1, restomod2]
     },
     {
       title: "944 Restomod", 
       description: "Collaborative project management tool with real-time updates, team chat, and progress tracking.",
-      technologies: ["Vue.js", "Express", "MongoDB", "Socket.io"],
+      technologies: ["Metal Fab", "Body work", "Electrical Wiring", "3D Printing"],
       image: "📋",
       photos: [taskApp1, taskApp2]
     },
     {
       title: "Large scale FDM 3d printer",
       description: "Real-time data visualization dashboard for business metrics with customizable charts and reports.",
-      technologies: ["React", "D3.js", "Python", "FastAPI", "Redis"],
+      technologies: ["Metal Fab", "Body work", "Electrical Wiring", "3D Printing"],
       image: "📊",
       photos: [analytics1, analytics2]
     },
     {
       title: "CNC router",
       description: "Cross-platform weather application with location services, forecasts, and weather alerts.",
-      technologies: ["React Native", "TypeScript", "Weather API"],
+      technologies: ["Metal Fab", "Body work", "Electrical Wiring", "3D Printing"],
       image: "🌤️",
       photos: [weather1]
     },
     {
       title: "BIT-kit Biomaterial test platform (Ender 3)",
       description: "Intelligent chatbot with natural language processing for customer support automation.",
-      technologies: ["Python", "TensorFlow", "Flask", "Docker"],
+      technologies: ["Metal Fab", "Body work", "Electrical Wiring", "3D Printing"],
       image: "🤖",
       photos: [chatbot1]
     },
     {
       title: "Blacksmithing",
       description: "Secure cryptocurrency wallet with multi-currency support and transaction history.",
-      technologies: ["React", "Web3.js", "Solidity", "Ethereum"],
+      technologies: ["Metal Fab", "Body work", "Electrical Wiring", "3D Printing"],
       image: "💰",
       photos: [wallet1]
     },
     {
       title: "Machining",
       description: "Advanced machining projects and fabrication work.",
-      technologies: ["CAD", "CAM", "CNC", "Manual Machining"],
+      technologies: ["Metal Fab", "Body work", "Electrical Wiring", "3D Printing"],
       image: "⚙️",
       photos: [wallet1]
     }
