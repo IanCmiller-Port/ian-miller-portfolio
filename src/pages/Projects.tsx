@@ -23,14 +23,23 @@ const restomodGallery = [
   "/lovable-uploads/177595bf-0789-441e-8eaa-c27bf8c53379.png"
 ];
 
+// Bioprinter project photos
+const bioprinterCover = "/lovable-uploads/1c716f75-8b71-4fed-8062-7bde2ff91e61.png";
+const bioprinterGallery = [
+  "/lovable-uploads/1839ed07-a577-46c2-9839-a376a9f2c366.png",
+  "/lovable-uploads/1c716f75-8b71-4fed-8062-7bde2ff91e61.png",
+  "/lovable-uploads/1296f8f3-cbe4-4d50-b02a-e70fa816742f.png"
+];
+
 const Projects = () => {
   const projects = [
     {
       title: "Large Scale Fresh Bioprinter",
-      description: "Full-stack e-commerce solution with payment processing, inventory management, and admin dashboard.",
-      technologies: ["Metal Fab", "Body work", "Electrical Wiring", "3D Printing"],
-      image: "🛒",
-      photos: [taskApp1, taskApp2]
+      description: "Using SLS like wiper technology to increase speed an accuracy at scale for FRESH bioprinting",
+      technologies: ["Machining", "CAD", "Plasma Cutting", "Motion system Design", "Electrical Wiring"],
+      coverImage: bioprinterCover,
+      image: "🧪",
+      photos: bioprinterGallery
     },
     {
       title: "944 Restomod", 
