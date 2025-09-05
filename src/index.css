@@ -8,46 +8,46 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Clean professional palette - Dark Green Theme */
+    /* Clean professional palette */
     --background: 0 0% 99%;
-    --foreground: 0 0% 15%;
+    --foreground: 215 25% 27%;
 
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 15%;
+    --card-foreground: 215 25% 27%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 15%;
+    --popover-foreground: 215 25% 27%;
 
-    --primary: 140 60% 30%;
+    --primary: 215 85% 55%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 0 0% 95%;
-    --secondary-foreground: 0 0% 15%;
+    --secondary: 215 15% 95%;
+    --secondary-foreground: 215 25% 27%;
 
-    --muted: 0 0% 96%;
-    --muted-foreground: 0 0% 46%;
+    --muted: 215 15% 96%;
+    --muted-foreground: 215 10% 46%;
 
-    --accent: 140 50% 45%;
+    --accent: 205 100% 60%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 75% 55%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 92%;
-    --input: 0 0% 92%;
-    --ring: 140 60% 30%;
+    --border: 215 15% 92%;
+    --input: 215 15% 92%;
+    --ring: 215 85% 55%;
 
     --radius: 0.75rem;
 
-    /* Professional gradients - Dark Green Theme */
-    --gradient-hero: linear-gradient(135deg, hsl(140 60% 30%), hsl(140 50% 45%));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(0 0% 98%));
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 99%), hsl(0 0% 96%));
+    /* Professional gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(215 85% 55%), hsl(205 100% 60%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(215 15% 98%));
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 99%), hsl(215 15% 96%));
 
     /* Professional shadows */
-    --shadow-soft: 0 4px 12px -2px hsl(0 0% 15% / 0.1);
-    --shadow-medium: 0 8px 24px -4px hsl(0 0% 15% / 0.15);
-    --shadow-large: 0 16px 40px -8px hsl(0 0% 15% / 0.2);
+    --shadow-soft: 0 4px 12px -2px hsl(215 25% 27% / 0.1);
+    --shadow-medium: 0 8px 24px -4px hsl(215 25% 27% / 0.15);
+    --shadow-large: 0 16px 40px -8px hsl(215 25% 27% / 0.2);
 
     /* Animation variables */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -71,38 +71,38 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 0 0% 8%;
-    --foreground: 0 0% 91%;
+    --background: 215 28% 17%;
+    --foreground: 213 31% 91%;
 
-    --card: 0 0% 8%;
-    --card-foreground: 0 0% 91%;
+    --card: 215 28% 17%;
+    --card-foreground: 213 31% 91%;
 
-    --popover: 0 0% 8%;
-    --popover-foreground: 0 0% 91%;
+    --popover: 215 28% 17%;
+    --popover-foreground: 213 31% 91%;
 
-    --primary: 140 50% 45%;
-    --primary-foreground: 0 0% 8%;
+    --primary: 205 100% 60%;
+    --primary-foreground: 215 28% 17%;
 
-    --secondary: 0 0% 15%;
-    --secondary-foreground: 0 0% 91%;
+    --secondary: 215 20% 25%;
+    --secondary-foreground: 213 31% 91%;
 
-    --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 215 20% 25%;
+    --muted-foreground: 217.9 10.6% 64.9%;
 
-    --accent: 140 60% 30%;
-    --accent-foreground: 0 0% 91%;
+    --accent: 215 85% 55%;
+    --accent-foreground: 213 31% 91%;
 
     --destructive: 0 75% 55%;
-    --destructive-foreground: 0 0% 91%;
+    --destructive-foreground: 213 31% 91%;
 
-    --border: 0 0% 15%;
-    --input: 0 0% 15%;
-    --ring: 140 50% 45%;
+    --border: 215 20% 25%;
+    --input: 215 20% 25%;
+    --ring: 205 100% 60%;
 
-    /* Dark mode gradients - Dark Green Theme */
-    --gradient-hero: linear-gradient(135deg, hsl(140 50% 45%), hsl(140 60% 30%));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 8%), hsl(0 0% 15%));
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 8%), hsl(0 0% 12%));
+    /* Dark mode gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(205 100% 60%), hsl(215 85% 55%));
+    --gradient-card: linear-gradient(145deg, hsl(215 28% 17%), hsl(215 20% 25%));
+    --gradient-subtle: linear-gradient(180deg, hsl(215 28% 17%), hsl(215 20% 20%));
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
