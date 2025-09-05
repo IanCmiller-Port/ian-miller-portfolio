@@ -31,6 +31,12 @@ const bioprinterGallery = [
   "/lovable-uploads/1296f8f3-cbe4-4d50-b02a-e70fa816742f.png"
 ];
 
+// Large scale FDM 3D printer project photos
+const fdmPrinterCover = "/lovable-uploads/936cec2b-c729-4e18-aca5-74cb2b5e2bc1.png";
+const fdmPrinterGallery = [
+  "/lovable-uploads/936cec2b-c729-4e18-aca5-74cb2b5e2bc1.png"
+];
+
 const Projects = () => {
   const projects = [
     {
@@ -48,13 +54,6 @@ const Projects = () => {
       coverImage: restomodCover,
       image: "🏎️",
       photos: restomodGallery
-    },
-    {
-      title: "Large scale FDM 3d printer",
-      description: "Real-time data visualization dashboard for business metrics with customizable charts and reports.",
-      technologies: ["Metal Fab", "Body work", "Electrical Wiring", "3D Printing"],
-      image: "📊",
-      photos: [analytics1, analytics2]
     },
     {
       title: "CNC router",
@@ -83,6 +82,14 @@ const Projects = () => {
       technologies: ["Metal Fab", "Body work", "Electrical Wiring", "3D Printing"],
       image: "⚙️",
       photos: [wallet1]
+    },
+    {
+      title: "Large scale FDM 3d printer",
+      description: "Make 3d printing large models like car body panels affordable for hobbyists. I built this 3d printer for only 450$. This was my first time building a 3d printer from scratch.",
+      technologies: ["Soldering", "Electronics", "CAD", "Documentation", "Open source design"],
+      coverImage: fdmPrinterCover,
+      image: "🖨️",
+      photos: fdmPrinterGallery
     }
   ];
 
