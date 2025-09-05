@@ -110,7 +110,7 @@ const Projects = () => {
     {
       title: "Machining",
       description: "Some professional and personal machining I've done",
-      technologies: ["CNC Machining", "Metal Fabrication", "Precision Tooling", "CAD/CAM"],
+      technologies: ["CNC machining", "Manual Machining", "Precision measurement"],
       coverImage: machiningCover,
       image: "⚙️",
       photos: machiningGallery
