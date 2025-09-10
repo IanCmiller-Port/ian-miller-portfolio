@@ -44,7 +44,7 @@ const Header = () => {
               href="https://docs.google.com/document/d/1-HUa4lKR1rq3ZFqEFRg1en_MKp88ixPXLHGuMJNYDg0/edit?usp=sharing" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-center"
+              className="flex items-center justify-center"
             >
               Resume
             </a>
