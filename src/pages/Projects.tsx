@@ -85,14 +85,6 @@ const otherProjectsGallery = [
 const Projects = () => {
   const projects = [
     {
-      title: "Kneevive Osteoarthritis Traction Device",
-      description: "Led a team of engineers in developing an innovative at-home osteoarthritis traction device, while mentoring teammates by teaching CAD skills and core engineering concepts",
-      technologies: ["Project management", "Medical device Design", "Market research", "CAD", "Test development"],
-      coverImage: kneeviveCover,
-      image: "🦵",
-      photos: kneeviveGallery
-    },
-    {
       title: "Large Scale Fresh Bioprinter",
       description: "Using SLS like wiper technology to increase speed an accuracy at scale for FRESH bioprinting",
       technologies: ["Machining", "CAD", "Plasma Cutting", "Motion system Design", "Electrical Wiring"],
@@ -107,6 +99,14 @@ const Projects = () => {
       coverImage: restomodCover,
       image: "🏎️",
       photos: restomodGallery
+    },
+    {
+      title: "Kneevive Osteoarthritis Traction Device",
+      description: "Led a team of engineers in developing an innovative at-home osteoarthritis traction device, while mentoring teammates by teaching CAD skills and core engineering concepts",
+      technologies: ["Project management", "Medical device Design", "Market research", "CAD", "Test development"],
+      coverImage: kneeviveCover,
+      image: "🦵",
+      photos: kneeviveGallery
     },
     {
       title: "CNC router",
