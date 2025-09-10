@@ -61,6 +61,15 @@ const machiningGallery = [
   "/lovable-uploads/5924ad52-d70a-4bcb-97a7-123228d0ccba.png"
 ];
 
+// Kneevive project photos
+const kneeviveCover = "/lovable-uploads/e7f70991-80d7-495a-893c-9c40e8c5292a.png";
+const kneeviveGallery = [
+  "/lovable-uploads/e7f70991-80d7-495a-893c-9c40e8c5292a.png",
+  "/lovable-uploads/3464462f-71c2-4e64-9c98-7822392f2c02.png",
+  "/lovable-uploads/fe8c7824-1f07-4e61-8309-3e3a5ec8bf58.png",
+  "/lovable-uploads/a30adf7c-4cd9-45e5-9361-40b9a9dd4b0a.png"
+];
+
 // Other projects photos
 const otherProjectsCover = "/lovable-uploads/a4bbd03c-65a5-4ca5-990e-2d2946e8d197.png";
 const otherProjectsGallery = [
@@ -75,6 +84,14 @@ const otherProjectsGallery = [
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Kneevive Osteoarthritis Traction Device",
+      description: "Led a team of engineers in developing an innovative at-home osteoarthritis traction device, while mentoring teammates by teaching CAD skills and core engineering concepts",
+      technologies: ["Project management", "Medical device Design", "Market research", "CAD", "Test development"],
+      coverImage: kneeviveCover,
+      image: "🦵",
+      photos: kneeviveGallery
+    },
     {
       title: "Large Scale Fresh Bioprinter",
       description: "Using SLS like wiper technology to increase speed an accuracy at scale for FRESH bioprinting",
