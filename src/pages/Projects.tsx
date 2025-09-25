@@ -12,6 +12,8 @@ import weather1 from "@/assets/project-photos/weather-app-1.jpg";
 import chatbot1 from "@/assets/project-photos/chatbot-1.jpg";
 import wallet1 from "@/assets/project-photos/wallet-1.jpg";
 import bioprinterMain from "@/assets/project-photos/bioprinter-main.jpg";
+import restomodWheels from "@/assets/project-photos/944-restomod-wheels.jpg";
+import restomodWelding from "@/assets/project-photos/944-restomod-welding.jpg";
 
 // 944 Restomod project photos
 const restomodCover = "/lovable-uploads/5bcbb0b7-ff9a-493e-adca-7ba654d48d94.png";
@@ -21,7 +23,9 @@ const restomodGallery = [
   "/lovable-uploads/12bc95c2-d55c-479b-90f0-4b6ecd6a6c83.png",
   "/lovable-uploads/83416923-65d7-4eff-8e5c-05af82562cb1.png",
   "/lovable-uploads/2c5d74b0-4c47-45ef-bbf8-5c0f8803c118.png",
-  "/lovable-uploads/177595bf-0789-441e-8eaa-c27bf8c53379.png"
+  "/lovable-uploads/177595bf-0789-441e-8eaa-c27bf8c53379.png",
+  restomodWheels,
+  restomodWelding
 ];
 
 // Bioprinter project photos
