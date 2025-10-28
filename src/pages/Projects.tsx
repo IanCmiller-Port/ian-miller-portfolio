@@ -87,17 +87,17 @@ const kneeviveGallery = [
 // Other projects photos
 const otherProjectsCover = otherCarDriveway;
 const otherProjectsGallery = [
-  "/lovable-uploads/1096932f-4e6c-4fc7-bcc2-c5e251fb1ff8.png",
-  "/lovable-uploads/7a4bcb59-9616-40d1-924a-961c7d298754.png",
-  "/lovable-uploads/fe9038f0-f175-4415-9d86-4050a9b09af6.png",
-  "/lovable-uploads/a4bbd03c-65a5-4ca5-990e-2d2946e8d197.png",
-  "/lovable-uploads/48c8f770-db0e-48ea-975b-0eb1583dfca4.png",
-  "/lovable-uploads/501df425-ce26-4653-8731-bf56c421a60f.png",
-  "/lovable-uploads/a0693d29-8c83-49e2-aa4c-a16e42e7037c.png",
-  otherTable,
   otherEngine,
+  "/lovable-uploads/48c8f770-db0e-48ea-975b-0eb1583dfca4.png",
+  otherTable,
+  "/lovable-uploads/a0693d29-8c83-49e2-aa4c-a16e42e7037c.png",
+  "/lovable-uploads/fe9038f0-f175-4415-9d86-4050a9b09af6.png",
   otherClutch,
-  otherCarDriveway
+  "/lovable-uploads/1096932f-4e6c-4fc7-bcc2-c5e251fb1ff8.png",
+  "/lovable-uploads/501df425-ce26-4653-8731-bf56c421a60f.png",
+  otherCarDriveway,
+  "/lovable-uploads/7a4bcb59-9616-40d1-924a-961c7d298754.png",
+  "/lovable-uploads/a4bbd03c-65a5-4ca5-990e-2d2946e8d197.png"
 ];
 
 const Projects = () => {
