@@ -14,6 +14,8 @@ import wallet1 from "@/assets/project-photos/wallet-1.jpg";
 import bioprinterMain from "@/assets/project-photos/bioprinter-main.jpg";
 import restomodWheels from "@/assets/project-photos/944-restomod-wheels.jpg";
 import restomodWelding from "@/assets/project-photos/944-restomod-welding.jpg";
+import restomodInterior1 from "@/assets/project-photos/944-restomod-interior-1.jpg";
+import restomodInterior2 from "@/assets/project-photos/944-restomod-interior-2.jpg";
 
 // 944 Restomod project photos
 const restomodCover = "/lovable-uploads/5bcbb0b7-ff9a-493e-adca-7ba654d48d94.png";
@@ -25,7 +27,9 @@ const restomodGallery = [
   "/lovable-uploads/2c5d74b0-4c47-45ef-bbf8-5c0f8803c118.png",
   "/lovable-uploads/177595bf-0789-441e-8eaa-c27bf8c53379.png",
   restomodWheels,
-  restomodWelding
+  restomodWelding,
+  restomodInterior1,
+  restomodInterior2
 ];
 
 // Bioprinter project photos
