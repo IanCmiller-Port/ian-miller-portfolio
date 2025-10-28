@@ -194,7 +194,7 @@ const Projects = () => {
                     <img 
                       src={project.coverImage} 
                       alt={project.title}
-                      className={`w-full h-full object-cover ${project.title === "Other projects" ? "object-[center_40%]" : ""}`}
+                      className={`w-full h-full object-cover ${project.title === "Other projects" ? "object-[center_60%]" : ""}`}
                     />
                   ) : (
                     project.image
