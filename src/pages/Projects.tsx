@@ -16,6 +16,10 @@ import restomodWheels from "@/assets/project-photos/944-restomod-wheels.jpg";
 import restomodWelding from "@/assets/project-photos/944-restomod-welding.jpg";
 import restomodInterior1 from "@/assets/project-photos/944-restomod-interior-1.jpg";
 import restomodInterior2 from "@/assets/project-photos/944-restomod-interior-2.jpg";
+import otherTable from "@/assets/project-photos/other-table.jpg";
+import otherEngine from "@/assets/project-photos/other-engine.jpg";
+import otherClutch from "@/assets/project-photos/other-clutch.jpg";
+import otherCarDriveway from "@/assets/project-photos/other-car-driveway.jpg";
 
 // 944 Restomod project photos
 const restomodCover = "/lovable-uploads/5bcbb0b7-ff9a-493e-adca-7ba654d48d94.png";
@@ -81,7 +85,7 @@ const kneeviveGallery = [
 ];
 
 // Other projects photos
-const otherProjectsCover = "/lovable-uploads/a4bbd03c-65a5-4ca5-990e-2d2946e8d197.png";
+const otherProjectsCover = otherCarDriveway;
 const otherProjectsGallery = [
   "/lovable-uploads/1096932f-4e6c-4fc7-bcc2-c5e251fb1ff8.png",
   "/lovable-uploads/7a4bcb59-9616-40d1-924a-961c7d298754.png",
@@ -89,7 +93,11 @@ const otherProjectsGallery = [
   "/lovable-uploads/a4bbd03c-65a5-4ca5-990e-2d2946e8d197.png",
   "/lovable-uploads/48c8f770-db0e-48ea-975b-0eb1583dfca4.png",
   "/lovable-uploads/501df425-ce26-4653-8731-bf56c421a60f.png",
-  "/lovable-uploads/a0693d29-8c83-49e2-aa4c-a16e42e7037c.png"
+  "/lovable-uploads/a0693d29-8c83-49e2-aa4c-a16e42e7037c.png",
+  otherTable,
+  otherEngine,
+  otherClutch,
+  otherCarDriveway
 ];
 
 const Projects = () => {
