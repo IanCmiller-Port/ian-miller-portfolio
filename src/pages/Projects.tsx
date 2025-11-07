@@ -12,6 +12,7 @@ import weather1 from "@/assets/project-photos/weather-app-1.jpg";
 import chatbot1 from "@/assets/project-photos/chatbot-1.jpg";
 import wallet1 from "@/assets/project-photos/wallet-1.jpg";
 import bioprinterMain from "@/assets/project-photos/bioprinter-main.jpg";
+import bioprinterAssembly from "@/assets/project-photos/bioprinter-assembly.png";
 import restomodWheels from "@/assets/project-photos/944-restomod-wheels.jpg";
 import restomodWelding from "@/assets/project-photos/944-restomod-welding.jpg";
 import restomodInterior1 from "@/assets/project-photos/944-restomod-interior-1.jpg";
@@ -38,7 +39,7 @@ const restomodGallery = [
 ];
 
 // Bioprinter project photos
-const bioprinterCover = bioprinterMain;
+const bioprinterCover = bioprinterAssembly;
 const bioprinterGallery = [
   bioprinterMain,
   "/lovable-uploads/1839ed07-a577-46c2-9839-a376a9f2c366.png",
