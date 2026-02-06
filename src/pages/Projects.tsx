@@ -30,15 +30,18 @@ import machiningBlade from "@/assets/project-photos/machining-blade.jpg";
 import machiningBar1 from "@/assets/project-photos/machining-bar1.jpg";
 import machiningBar2 from "@/assets/project-photos/machining-bar2.jpg";
 
+// Helper to prefix public assets with the base URL for GitHub Pages compatibility
+const asset = (path: string) => `${import.meta.env.BASE_URL}${path.startsWith('/') ? path.slice(1) : path}`;
+
 // 944 Restomod project photos
-const restomodCover = "/lovable-uploads/5bcbb0b7-ff9a-493e-adca-7ba654d48d94.png";
+const restomodCover = asset("lovable-uploads/5bcbb0b7-ff9a-493e-adca-7ba654d48d94.png");
 const restomodGallery = [
-  "/lovable-uploads/3bb257d8-9e59-4d17-9065-a5e3b997e77e.png",
-  "/lovable-uploads/e14d57ac-f73d-4e85-9d83-d07febd4150b.png",
-  "/lovable-uploads/12bc95c2-d55c-479b-90f0-4b6ecd6a6c83.png",
-  "/lovable-uploads/83416923-65d7-4eff-8e5c-05af82562cb1.png",
-  "/lovable-uploads/2c5d74b0-4c47-45ef-bbf8-5c0f8803c118.png",
-  "/lovable-uploads/177595bf-0789-441e-8eaa-c27bf8c53379.png",
+  asset("lovable-uploads/3bb257d8-9e59-4d17-9065-a5e3b997e77e.png"),
+  asset("lovable-uploads/e14d57ac-f73d-4e85-9d83-d07febd4150b.png"),
+  asset("lovable-uploads/12bc95c2-d55c-479b-90f0-4b6ecd6a6c83.png"),
+  asset("lovable-uploads/83416923-65d7-4eff-8e5c-05af82562cb1.png"),
+  asset("lovable-uploads/2c5d74b0-4c47-45ef-bbf8-5c0f8803c118.png"),
+  asset("lovable-uploads/177595bf-0789-441e-8eaa-c27bf8c53379.png"),
   restomodWheels,
   restomodWelding,
   restomodInterior1,
@@ -51,69 +54,69 @@ const restomodGallery = [
 const bioprinterCover = bioprinterAssembly;
 const bioprinterGallery = [
   bioprinterMain,
-  "/lovable-uploads/1839ed07-a577-46c2-9839-a376a9f2c366.png",
-  "/lovable-uploads/1c716f75-8b71-4fed-8062-7bde2ff91e61.png",
-  "/lovable-uploads/1296f8f3-cbe4-4d50-b02a-e70fa816742f.png"
+  asset("lovable-uploads/1839ed07-a577-46c2-9839-a376a9f2c366.png"),
+  asset("lovable-uploads/1c716f75-8b71-4fed-8062-7bde2ff91e61.png"),
+  asset("lovable-uploads/1296f8f3-cbe4-4d50-b02a-e70fa816742f.png")
 ];
 
 // CNC router project photos
-const cncRouterCover = "/lovable-uploads/f90e94ad-f6ee-486c-8edf-6d57a7b9a130.png";
+const cncRouterCover = asset("lovable-uploads/f90e94ad-f6ee-486c-8edf-6d57a7b9a130.png");
 const cncRouterGallery = [
-  "/lovable-uploads/f90e94ad-f6ee-486c-8edf-6d57a7b9a130.png"
+  asset("lovable-uploads/f90e94ad-f6ee-486c-8edf-6d57a7b9a130.png")
 ];
 
 // BIT-kit project photos
-const bitkitCover = "/lovable-uploads/f26968ab-0ef7-4325-a3b6-a3b0aa7f0b0a.png";
+const bitkitCover = asset("lovable-uploads/f26968ab-0ef7-4325-a3b6-a3b0aa7f0b0a.png");
 const bitkitGallery = [
-  "/lovable-uploads/66f1f7b0-558c-43e2-b3e3-5718c16e30f6.png",
-  "/lovable-uploads/d9a1dffe-7ea4-40c8-a587-42b83bc0f6f1.png",
-  "/lovable-uploads/7c6b7bc4-39dd-4b59-b7eb-3cca5a955d8d.png",
-  "/lovable-uploads/f26968ab-0ef7-4325-a3b6-a3b0aa7f0b0a.png"
+  asset("lovable-uploads/66f1f7b0-558c-43e2-b3e3-5718c16e30f6.png"),
+  asset("lovable-uploads/d9a1dffe-7ea4-40c8-a587-42b83bc0f6f1.png"),
+  asset("lovable-uploads/7c6b7bc4-39dd-4b59-b7eb-3cca5a955d8d.png"),
+  asset("lovable-uploads/f26968ab-0ef7-4325-a3b6-a3b0aa7f0b0a.png")
 ];
 
 // Large scale FDM 3D printer project photos
-const fdmPrinterCover = "/lovable-uploads/936cec2b-c729-4e18-aca5-74cb2b5e2bc1.png";
+const fdmPrinterCover = asset("lovable-uploads/936cec2b-c729-4e18-aca5-74cb2b5e2bc1.png");
 const fdmPrinterGallery = [
-  "/lovable-uploads/936cec2b-c729-4e18-aca5-74cb2b5e2bc1.png"
+  asset("lovable-uploads/936cec2b-c729-4e18-aca5-74cb2b5e2bc1.png")
 ];
 
 // Machining project photos
-const machiningCover = "/lovable-uploads/ff5d2c36-ebb2-4199-bbea-0162e86092fa.png";
+const machiningCover = asset("lovable-uploads/ff5d2c36-ebb2-4199-bbea-0162e86092fa.png");
 const machiningGallery = [
   machiningPress,
   machiningPlates,
   machiningBlade,
   machiningBar1,
   machiningBar2,
-  "/lovable-uploads/0392c66b-5d7c-4edb-a074-6300bab19b56.png",
-  "/lovable-uploads/ff5d2c36-ebb2-4199-bbea-0162e86092fa.png", 
-  "/lovable-uploads/37a9e13e-297b-45f5-8053-c1f889e890af.png",
-  "/lovable-uploads/5924ad52-d70a-4bcb-97a7-123228d0ccba.png"
+  asset("lovable-uploads/0392c66b-5d7c-4edb-a074-6300bab19b56.png"),
+  asset("lovable-uploads/ff5d2c36-ebb2-4199-bbea-0162e86092fa.png"),
+  asset("lovable-uploads/37a9e13e-297b-45f5-8053-c1f889e890af.png"),
+  asset("lovable-uploads/5924ad52-d70a-4bcb-97a7-123228d0ccba.png")
 ];
 
 // Kneevive project photos
-const kneeviveCover = "/lovable-uploads/e7f70991-80d7-495a-893c-9c40e8c5292a.png";
+const kneeviveCover = asset("lovable-uploads/e7f70991-80d7-495a-893c-9c40e8c5292a.png");
 const kneeviveGallery = [
-  "/lovable-uploads/e7f70991-80d7-495a-893c-9c40e8c5292a.png",
-  "/lovable-uploads/3464462f-71c2-4e64-9c98-7822392f2c02.png",
-  "/lovable-uploads/fe8c7824-1f07-4e61-8309-3e3a5ec8bf58.png",
-  "/lovable-uploads/a30adf7c-4cd9-45e5-9361-40b9a9dd4b0a.png"
+  asset("lovable-uploads/e7f70991-80d7-495a-893c-9c40e8c5292a.png"),
+  asset("lovable-uploads/3464462f-71c2-4e64-9c98-7822392f2c02.png"),
+  asset("lovable-uploads/fe8c7824-1f07-4e61-8309-3e3a5ec8bf58.png"),
+  asset("lovable-uploads/a30adf7c-4cd9-45e5-9361-40b9a9dd4b0a.png")
 ];
 
 // Other projects photos
 const otherProjectsCover = otherCarDriveway;
 const otherProjectsGallery = [
   otherEngine,
-  "/lovable-uploads/48c8f770-db0e-48ea-975b-0eb1583dfca4.png",
+  asset("lovable-uploads/48c8f770-db0e-48ea-975b-0eb1583dfca4.png"),
   otherTable,
-  "/lovable-uploads/a0693d29-8c83-49e2-aa4c-a16e42e7037c.png",
-  "/lovable-uploads/fe9038f0-f175-4415-9d86-4050a9b09af6.png",
+  asset("lovable-uploads/a0693d29-8c83-49e2-aa4c-a16e42e7037c.png"),
+  asset("lovable-uploads/fe9038f0-f175-4415-9d86-4050a9b09af6.png"),
   otherClutch,
-  "/lovable-uploads/1096932f-4e6c-4fc7-bcc2-c5e251fb1ff8.png",
-  "/lovable-uploads/501df425-ce26-4653-8731-bf56c421a60f.png",
+  asset("lovable-uploads/1096932f-4e6c-4fc7-bcc2-c5e251fb1ff8.png"),
+  asset("lovable-uploads/501df425-ce26-4653-8731-bf56c421a60f.png"),
   otherCarDriveway,
-  "/lovable-uploads/7a4bcb59-9616-40d1-924a-961c7d298754.png",
-  "/lovable-uploads/a4bbd03c-65a5-4ca5-990e-2d2946e8d197.png",
+  asset("lovable-uploads/7a4bcb59-9616-40d1-924a-961c7d298754.png"),
+  asset("lovable-uploads/a4bbd03c-65a5-4ca5-990e-2d2946e8d197.png"),
   otherCncRouter
 ];
 
@@ -211,6 +214,7 @@ const Projects = () => {
                     <img 
                       src={project.coverImage} 
                       alt={project.title}
+                      loading="lazy"
                       className={`w-full h-full object-cover ${project.title === "Other projects" ? "object-[center_60%]" : ""}`}
                     />
                   ) : (
