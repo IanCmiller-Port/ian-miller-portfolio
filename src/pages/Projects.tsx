@@ -17,6 +17,8 @@ import restomodWheels from "@/assets/project-photos/944-restomod-wheels.jpg";
 import restomodWelding from "@/assets/project-photos/944-restomod-welding.jpg";
 import restomodInterior1 from "@/assets/project-photos/944-restomod-interior-1.jpg";
 import restomodInterior2 from "@/assets/project-photos/944-restomod-interior-2.jpg";
+import restomodShifter from "@/assets/project-photos/944-restomod-shifter.jpg";
+import restomodWheelPainting from "@/assets/project-photos/944-restomod-wheel-painting.jpg";
 import otherTable from "@/assets/project-photos/other-table.jpg";
 import otherEngine from "@/assets/project-photos/other-engine.jpg";
 import otherClutch from "@/assets/project-photos/other-clutch.jpg";
@@ -40,7 +42,9 @@ const restomodGallery = [
   restomodWheels,
   restomodWelding,
   restomodInterior1,
-  restomodInterior2
+  restomodInterior2,
+  restomodShifter,
+  restomodWheelPainting
 ];
 
 // Bioprinter project photos
