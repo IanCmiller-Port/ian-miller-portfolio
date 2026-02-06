@@ -136,12 +136,12 @@ const Projects = () => {
       photos: restomodGallery
     },
     {
-      title: "Kneevive Osteoarthritis Traction Device",
-      description: "Led a team of engineers in developing an innovative at-home osteoarthritis traction device, while mentoring teammates by teaching CAD skills and core engineering concepts",
-      technologies: ["Project management", "Medical device Design", "Market research", "CAD", "Test development"],
-      coverImage: kneeviveCover,
-      image: "🦵",
-      photos: kneeviveGallery
+      title: "Machining",
+      description: "Some professional and personal machining I've done",
+      technologies: ["CNC machining", "Manual Machining", "Precision measurement"],
+      coverImage: machiningCover,
+      image: "⚙️",
+      photos: machiningGallery
     },
     {
       title: "CNC router",
@@ -160,12 +160,12 @@ const Projects = () => {
       photos: bitkitGallery
     },
     {
-      title: "Machining",
-      description: "Some professional and personal machining I've done",
-      technologies: ["CNC machining", "Manual Machining", "Precision measurement"],
-      coverImage: machiningCover,
-      image: "⚙️",
-      photos: machiningGallery
+      title: "Kneevive Osteoarthritis Traction Device",
+      description: "Led a team of engineers in developing an innovative at-home osteoarthritis traction device, while mentoring teammates by teaching CAD skills and core engineering concepts",
+      technologies: ["Project management", "Medical device Design", "Market research", "CAD", "Test development"],
+      coverImage: kneeviveCover,
+      image: "🦵",
+      photos: kneeviveGallery
     },
     {
       title: "Large scale FDM 3d printer",
