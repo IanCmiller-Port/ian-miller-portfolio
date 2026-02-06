@@ -22,6 +22,11 @@ import otherEngine from "@/assets/project-photos/other-engine.jpg";
 import otherClutch from "@/assets/project-photos/other-clutch.jpg";
 import otherCarDriveway from "@/assets/project-photos/other-car-driveway.jpg";
 import otherCncRouter from "@/assets/project-photos/other-cnc-router.jpg";
+import machiningPress from "@/assets/project-photos/machining-press.jpg";
+import machiningPlates from "@/assets/project-photos/machining-plates.jpg";
+import machiningBlade from "@/assets/project-photos/machining-blade.jpg";
+import machiningBar1 from "@/assets/project-photos/machining-bar1.jpg";
+import machiningBar2 from "@/assets/project-photos/machining-bar2.jpg";
 
 // 944 Restomod project photos
 const restomodCover = "/lovable-uploads/5bcbb0b7-ff9a-493e-adca-7ba654d48d94.png";
@@ -69,8 +74,13 @@ const fdmPrinterGallery = [
 ];
 
 // Machining project photos
-const machiningCover = "/lovable-uploads/ff5d2c36-ebb2-4199-bbea-0162e86092fa.png";
+const machiningCover = machiningPress;
 const machiningGallery = [
+  machiningPress,
+  machiningPlates,
+  machiningBlade,
+  machiningBar1,
+  machiningBar2,
   "/lovable-uploads/0392c66b-5d7c-4edb-a074-6300bab19b56.png",
   "/lovable-uploads/ff5d2c36-ebb2-4199-bbea-0162e86092fa.png", 
   "/lovable-uploads/37a9e13e-297b-45f5-8053-c1f889e890af.png",
