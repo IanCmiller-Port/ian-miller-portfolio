@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-const heroBackground = "/lovable-uploads/210b6c99-f1b1-4366-85ba-a9fafb61686d.png";
+const heroBackground = `${import.meta.env.BASE_URL}lovable-uploads/210b6c99-f1b1-4366-85ba-a9fafb61686d.png`;
 
 const Home = () => {
   return (

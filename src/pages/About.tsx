@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+const asset = (path: string) => `${import.meta.env.BASE_URL}${path.startsWith('/') ? path.slice(1) : path}`;
 
 const About = () => {
   const skills = [
@@ -14,21 +15,21 @@ const About = () => {
       company: "Lexington Medical, Bedford MA",
       period: "May - Present",
       description: "Worked with a team of 3 engineers to build a robotically assisted manufacturing workcell for surgical stapling. Used a combination of pneumatic and electrical actuators, sensors, and physical design elements to ensure robust operation. Machined high-precision, fast-turnaround components to support production. Provided DFM consulting for other teams before sending out parts for manufacturing.",
-      logo: "/lovable-uploads/d7cd054c-3f62-4370-8c4f-fcdcded15031.png"
+      logo: asset("lovable-uploads/d7cd054c-3f62-4370-8c4f-fcdcded15031.png")
     },
     {
       title: "Settings Optimization Intern",
       company: "Formlabs, Somerville MA",
       period: "May - August 2024", 
       description: "Created and executed diagnostic test procedures to address material performance concerns. Tuned settings for 15+ resin types and performed lifetime testing on printer components. Utilized precision measurement tools to improve print reliability.",
-      logo: "/lovable-uploads/d01568ab-430a-43ac-90f8-9a6cbabb6141.png"
+      logo: asset("lovable-uploads/d01568ab-430a-43ac-90f8-9a6cbabb6141.png")
     },
     {
       title: "Makerspace Staff",
       company: "UMass Amherst Makerspace, Amherst MA",
       period: "September 2023 - Present",
       description: "Consult on personal, Lab, and senior design projects. Build and maintain advanced equipment (Plasma Cutter, CNC router, SLA 3D printing). Manage purchasing for equipment and materials.",
-      logo: "/lovable-uploads/268e36d2-4341-44fc-b3ba-7407c89ceb9d.png"
+      logo: asset("lovable-uploads/268e36d2-4341-44fc-b3ba-7407c89ceb9d.png")
     }
   ];
 
