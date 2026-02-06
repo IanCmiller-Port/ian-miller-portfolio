@@ -12,7 +12,7 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
-const basename = import.meta.env.MODE === 'production' ? "/IanCmiller-Port" : "/";
+const basename = import.meta.env.MODE === 'production' ? "/ian-miller-portfolio" : "/";
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
