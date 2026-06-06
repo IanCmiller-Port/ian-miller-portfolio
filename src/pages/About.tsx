@@ -6,10 +6,17 @@ const About = () => {
   const skills = [
     "Solidworks", "Fusion 360", "Onshape", "Machining", "3D printing", "Sheet Metal", 
     "Welding", "Woodworking", "CMM", "3D Scanning", "Test method Design", 
-    "Electrical wiring", "Arduino", "Python"
+    "Electrical wiring", "Arduino", "Python", "Microfluidics Systems"
   ];
 
   const experiences = [
+    {
+      title: "Engineering Intern",
+      company: "Klona Biotech",
+      period: "Current",
+      description: "Design 3D printer enclosures and components. Design and test microfluidic systems for optimization with additive manufacturing. Create test plans to analyze print performance under cost constraints. Machine printer components to reduce cost and lead times.",
+      logo: asset("lovable-uploads/klona_biotech_logo.jpg")
+    },
     {
       title: "Manufacturing Engineering Intern",
       company: "Lexington Medical, Bedford MA",
@@ -44,7 +51,7 @@ const About = () => {
               <h2 className="text-3xl font-bold mb-6 text-foreground">About me</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  I am a Biomedical Engineering and Economics student at UMass Amherst with hands-on experience in medical device manufacturing, 3D printing, and biomaterials research. I've interned at Lexington Medical and Formlabs, where I contributed to robotic manufacturing systems, materials testing, and process optimization.
+                  I am a Biomedical Engineering and Economics student at UMass Amherst with hands-on experience in medical device manufacturing, 3D printing, and biomaterials research. I've interned at Klona Biotech, Lexington Medical, and Formlabs, where I contributed to robotic manufacturing systems, microfluidic and additive manufacturing development, materials testing, and process optimization.
                 </p>
                 <p>
                   At UMass, I'm involved in multiple bioprinting projects, economics research, and recently joined the university's Aeronautics Team.
