@@ -71,6 +71,17 @@ const About = () => {
                   UMass Aeronautics Team
                 </p>
               </div>
+              <div className="mt-8">
+                <img
+                  src={asset("lovable-uploads/other-big-check.jpg")}
+                  alt="re-FRESH Team"
+                  loading="lazy"
+                  className="w-full rounded-lg shadow-medium object-cover"
+                />
+                <p className="text-sm text-muted-foreground mt-2 text-center italic">
+                  re-FRESH Team
+                </p>
+              </div>
             </div>
 
             {/* Skills */}
