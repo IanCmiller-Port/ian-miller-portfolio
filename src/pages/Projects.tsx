@@ -44,6 +44,7 @@ const restomodGallery = [
   asset("lovable-uploads/83416923-65d7-4eff-8e5c-05af82562cb1.png"),
   asset("lovable-uploads/2c5d74b0-4c47-45ef-bbf8-5c0f8803c118.png"),
   asset("lovable-uploads/177595bf-0789-441e-8eaa-c27bf8c53379.png"),
+  asset("lovable-uploads/944-door-cards.jpg"),
   restomodWheels,
   restomodWelding,
   restomodInterior1,
@@ -53,13 +54,14 @@ const restomodGallery = [
 ];
 
 // Bioprinter project photos
-const bioprinterCover = asset("lovable-uploads/bioprinter-hydraulic-press.jpg");
+const bioprinterCover = asset("lovable-uploads/bioprinter-cover-new.jpg");
 const bioprinterGallery = [
-  bioprinterAssembly,
+  asset("lovable-uploads/bioprinter-cover-new.jpg"),
   bioprinterMain,
   asset("lovable-uploads/1839ed07-a577-46c2-9839-a376a9f2c366.png"),
   asset("lovable-uploads/1c716f75-8b71-4fed-8062-7bde2ff91e61.png"),
-  asset("lovable-uploads/1296f8f3-cbe4-4d50-b02a-e70fa816742f.png")
+  asset("lovable-uploads/1296f8f3-cbe4-4d50-b02a-e70fa816742f.png"),
+  asset("lovable-uploads/other-big-check.jpg")
 ];
 
 // CNC router project photos
@@ -121,8 +123,7 @@ const otherProjectsGallery = [
   otherCarDriveway,
   asset("lovable-uploads/7a4bcb59-9616-40d1-924a-961c7d298754.png"),
   asset("lovable-uploads/a4bbd03c-65a5-4ca5-990e-2d2946e8d197.png"),
-  otherCncRouter,
-  asset("lovable-uploads/other-big-check.jpg")
+  otherCncRouter
 ];
 
 const Projects = () => {
