@@ -60,27 +60,29 @@ const About = () => {
                   Outside of academics, I spend most of my time in the makerspace, where I love to tinker on cars. Whether it's rebuilding an engine, fabricating custom parts, or repainting wheels, I enjoy learning by building.
                 </p>
               </div>
-              <div className="mt-8">
-                <img
-                  src={asset("lovable-uploads/aeronautics-team.jpg")}
-                  alt="UMass Aeronautics Team"
-                  loading="lazy"
-                  className="w-full rounded-lg shadow-medium object-cover"
-                />
-                <p className="text-sm text-muted-foreground mt-2 text-center italic">
-                  UMass Aeronautics Team
-                </p>
-              </div>
-              <div className="mt-8">
-                <img
-                  src={asset("lovable-uploads/other-big-check.jpg")}
-                  alt="re-FRESH Team"
-                  loading="lazy"
-                  className="w-full rounded-lg shadow-medium object-cover"
-                />
-                <p className="text-sm text-muted-foreground mt-2 text-center italic">
-                  re-FRESH Team
-                </p>
+              <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                  <img
+                    src={asset("lovable-uploads/aeronautics-team.jpg")}
+                    alt="UMass Aeronautics Team"
+                    loading="lazy"
+                    className="w-full rounded-lg shadow-medium object-cover"
+                  />
+                  <p className="text-sm text-muted-foreground mt-2 text-center italic">
+                    UMass Aeronautics Team
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src={asset("lovable-uploads/other-big-check.jpg")}
+                    alt="re-FRESH Team"
+                    loading="lazy"
+                    className="w-full rounded-lg shadow-medium object-cover"
+                  />
+                  <p className="text-sm text-muted-foreground mt-2 text-center italic">
+                    re-FRESH Team
+                  </p>
+                </div>
               </div>
             </div>
 
