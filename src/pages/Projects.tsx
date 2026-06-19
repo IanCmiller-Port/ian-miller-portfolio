@@ -34,8 +34,10 @@ import machiningBar2 from "@/assets/project-photos/machining-bar2.jpg";
 const asset = (path: string) => `${import.meta.env.BASE_URL}${path.startsWith('/') ? path.slice(1) : path}`;
 
 // 944 Restomod project photos
-const restomodCover = asset("lovable-uploads/5bcbb0b7-ff9a-493e-adca-7ba654d48d94.png");
+const restomodCover = asset("lovable-uploads/944-side-profile-farm.jpg");
 const restomodGallery = [
+  asset("lovable-uploads/944-side-profile-farm.jpg"),
+  asset("lovable-uploads/5bcbb0b7-ff9a-493e-adca-7ba654d48d94.png"),
   asset("lovable-uploads/3bb257d8-9e59-4d17-9065-a5e3b997e77e.png"),
   asset("lovable-uploads/e14d57ac-f73d-4e85-9d83-d07febd4150b.png"),
   asset("lovable-uploads/12bc95c2-d55c-479b-90f0-4b6ecd6a6c83.png"),
@@ -51,7 +53,7 @@ const restomodGallery = [
 ];
 
 // Bioprinter project photos
-const bioprinterCover = bioprinterAssembly;
+const bioprinterCover = asset("lovable-uploads/bioprinter-hydraulic-press.jpg");
 const bioprinterGallery = [
   bioprinterMain,
   asset("lovable-uploads/1839ed07-a577-46c2-9839-a376a9f2c366.png"),
