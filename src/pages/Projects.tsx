@@ -162,6 +162,14 @@ const Projects = () => {
       photos: machiningGallery
     },
     {
+      title: "Bio Gas engine CHP system",
+      description: "Using biogas to power a combined heat and power (CHP) system, providing affordable renewable energy for small-scale farms in cold climates. Designed for simple construction and autonomous operation, the system maintains biodigester temperatures year-round to support reliable gas production during winter.",
+      technologies: ["Engine Modification", "Biogas", "Arduino", "PCB Design", "Thermal Systems"],
+      coverImage: chpCover,
+      image: "🔥",
+      photos: chpGallery
+    },
+    {
       title: "CNC router",
       description: "Originally setting out to build a \"Dremel CNC\", I was unimpressed by the lack of rigidity and power, so with parts that I had on hand i designed and built this machine.",
       technologies: ["GRBL", "Motion Systems", "Electronics", "Machining"],
