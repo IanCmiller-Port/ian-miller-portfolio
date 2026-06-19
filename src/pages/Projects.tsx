@@ -121,7 +121,8 @@ const otherProjectsGallery = [
   otherCarDriveway,
   asset("lovable-uploads/7a4bcb59-9616-40d1-924a-961c7d298754.png"),
   asset("lovable-uploads/a4bbd03c-65a5-4ca5-990e-2d2946e8d197.png"),
-  otherCncRouter
+  otherCncRouter,
+  asset("lovable-uploads/other-big-check.jpg")
 ];
 
 const Projects = () => {
