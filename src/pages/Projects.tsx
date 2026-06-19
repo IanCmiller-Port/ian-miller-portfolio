@@ -86,6 +86,7 @@ const fdmPrinterGallery = [
 // Machining project photos
 const machiningCover = asset("lovable-uploads/ff5d2c36-ebb2-4199-bbea-0162e86092fa.png");
 const machiningGallery = [
+  asset("lovable-uploads/machining-fixture.jpg"),
   machiningPress,
   machiningPlates,
   machiningBlade,
