@@ -55,6 +55,7 @@ const restomodGallery = [
 // Bioprinter project photos
 const bioprinterCover = asset("lovable-uploads/bioprinter-hydraulic-press.jpg");
 const bioprinterGallery = [
+  bioprinterAssembly,
   bioprinterMain,
   asset("lovable-uploads/1839ed07-a577-46c2-9839-a376a9f2c366.png"),
   asset("lovable-uploads/1c716f75-8b71-4fed-8062-7bde2ff91e61.png"),
