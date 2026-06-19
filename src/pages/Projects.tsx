@@ -100,6 +100,15 @@ const machiningGallery = [
   asset("lovable-uploads/5924ad52-d70a-4bcb-97a7-123228d0ccba.png")
 ];
 
+// Biogas CHP project photos
+const chpCover = asset("lovable-uploads/chp-diagram.png");
+const chpGallery = [
+  asset("lovable-uploads/chp-diagram.png"),
+  asset("lovable-uploads/chp-pcb.png"),
+  asset("lovable-uploads/chp-intake.png"),
+  asset("lovable-uploads/chp-poster.jpg")
+];
+
 // Kneevive project photos
 const kneeviveCover = asset("lovable-uploads/e7f70991-80d7-495a-893c-9c40e8c5292a.png");
 const kneeviveGallery = [
